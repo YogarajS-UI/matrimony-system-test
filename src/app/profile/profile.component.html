@@ -1,0 +1,46 @@
+<div class="profile-container">
+    <ion-header>
+        <ion-toolbar color="primary">
+            <ion-buttons slot="start">
+                <ion-back-button defaultHref="/"></ion-back-button>
+            </ion-buttons>
+            <mat-icon (click)="onBack()">arrow_back</mat-icon>
+
+
+            <ion-title>M9837832</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+        <div class="image-container">
+
+
+
+            <ion-icon name="arrow-back"></ion-icon>
+            <img [src]="currentImg" class="profile-img">
+
+
+
+            <div class="image-number">{{currentImgNumber + 1}}/{{profileData.image.length }}</div>
+
+            <div class="dots-container">
+                <span class="dot" (click)="onImgChange(i)" *ngFor="let image of profileData?.image; let i = index"
+                    [class.active]="i === currentImgNumber"></span>
+            </div>
+        </div>
+
+
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title> <strong>{{profileData.name}}</strong> </ion-card-title>
+            </ion-card-header>
+
+            <ion-card-content>
+                {{profileData.about}}
+            </ion-card-content>
+        </ion-card>
+
+
+
+    </ion-content>
+</div>

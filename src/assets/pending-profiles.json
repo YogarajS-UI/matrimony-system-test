@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Samantha Ruth Prabhu",
+    "image": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfr456MkV6HT8C7joTG9DFQUdJeZh4mtvqqrOZjsbM2PhsnfKG3GAL6P1d&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6z56OrJP2Cj3kDSYwqbzMqpiSaOLZ3DF2YgFQCAx6JmmYGim7YhdTmq_&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4Layu-LgK2IgQQKUC03dq5pgZxaGFeV0c2B0dev3pgockm91r8l3NbM&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXembomfyoBaTVBIMieP8OyzdWBe5CAvrxfIiE_vCtLHbMlePO5IhLC8Q&s=10"
+    ],
+    "about": "Samantha Ruth Prabhu, born on April 28, 1987, is a 36-year-old Indian actress, primarily known for her work in Telugu and Tamil cinema."
+  },
+  {
+    "name": "Shruti Kamal Haasan",
+    "image": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1tnkcnR1-QDuFZ72fy8Yt_Wt6Pnqh_0oQ7XyNBlF71EJS85L10D-QT6c&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLX3WSsbqhfli0b5Tzz0hLYvrpe0MNVHVv66yttYB0rv_kUrZ--6bowLg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Xu3vfagb0AzQ3T6aB22VAJKbvqxpxIFn5Vxu8Es1F_sKx4np2Rg4OY0&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv2zvhTFqNlK19x9T8lXj1i0hoWYf3A95hsBG4DQxdSA&s",
+	  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFhqulOsn8lr6dEvb0o0j3H7JltufujRUSgvTu0nTdA&s"
+    ],
+    "about": "Shruti Haasan, born January 28, 1986, is a 39-year-old actress and singer, known for her work in Indian films. She doesn't share her address publicly."
+  },
+  {
+    "name": "Tamannaah Bhatia",
+    "image": [
+
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4dpcXtv_NMvZ7w4h1AP6TviHgtcvLyCYjDKvv1osRDERC6Uq5V3cnenc&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrTrvNYAYJqtyxPwSYEm7Gt47FMW2bsGXvEXRfHsjjNQ&s",
+	        "https://wallpapers.com/images/featured-full/heroine-pictures-b9ste23c1zfuxnbz.jpg"
+    ],
+    "about": "Tamannaah Bhatia, born December 21, 1989, is a 35-year-old Indian actress, recognized for her roles in Telugu, Tamil, and Hindi films industries."
+  },
+  {
+    "name": "Trisha Krishnan",
+    "image": [
+
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPtJhODObr8N3ucKOPmC9GlheAKH7hkpZZ0y0WCMa5cQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5zOL_MO3BF2xscBgwxdueZZF5RdrhfSjT4pJ0LzUxDg&s"
+    ],
+    "about": "Trisha Krishnan, born May 4, 1983, in Chennai, Tamil Nadu, is a 42-year-old Indian actress, well-known in the Tamil film industry."
+  }
+]

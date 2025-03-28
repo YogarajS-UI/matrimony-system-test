@@ -1,0 +1,45 @@
+<mat-card class="matches-container">
+    <div class="header">
+        <p class="mat-title-small">My Matches</p>
+
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+
+        <mat-menu #menu="matMenu" overlapTrigger="false">
+            <button mat-menu-item (click)="gotoRecommendation()">Recommendations</button>
+        </mat-menu>
+    </div>
+
+    <div class="sub-header">
+        <h6 class="mat-title-medium">8 Profiles pending with me <span> 4 New</span></h6>
+
+    </div>
+    <div class="swipe-container">
+        <div class="swipe-content">
+            <div class="swipe-item" (click)="onClick(data)" *ngFor="let data of profileData">
+                <div class="content">
+                    <mat-card class="profile-card">
+                        <img mat-card-image
+                            [src]="data.image[0]"
+                            width="200px" alt="Profile Picture" />
+                        <mat-card-content>
+                            <p class="mat-title-medium">{{data.name}}</p>
+                            <p class="mat-body-medium">{{data.about}}</p>
+                        </mat-card-content>
+                        <mat-card-actions align="end">
+                            <button mat-raised-button id="action-yes" (click)="onClick(data)" class="custom-warning-button">Yes</button>
+                            <button mat-raised-button >No</button>
+                        </mat-card-actions>
+                        
+                    </mat-card>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+</mat-card>

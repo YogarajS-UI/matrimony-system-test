@@ -1,0 +1,71 @@
+<div class="container" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()">
+    <!-- Background Sections -->
+    <div class="first-half"></div>
+    <div class="second-half"></div>
+
+    <div class="tittle">
+        <mat-icon (click)="onBack()">arrow_back</mat-icon>
+        <p class="mat-title-medium">Daily Recommendations</p>
+    </div>
+
+    <!-- Card and Title Section -->
+    <div class="card-container" *ngIf="recData?.image">
+        <div class="swipe-container">
+            <div class="swipe-content">
+                <div class="swipe-item">
+                    <div class="content">
+                        <mat-card class="profile-card">
+                            <img mat-card-image [src]="recData.image[0]" width="350px" alt="Profile Picture" />
+                            <mat-card-content>
+                                <div class="verified-premium">
+                                    <mat-icon class="verified">verified</mat-icon>
+
+
+
+                                    <p id="verified" class="mat-body-small">verified</p>
+
+
+
+                                </div>
+                            </mat-card-content>
+
+                            <mat-card-content>
+                                <p class="mat-title-medium">{{recData.name}}</p>
+                                <p class="mat-body-small">{{recData.about}}</p>
+                            </mat-card-content>
+
+                            <div class="action">
+
+                                <div class="action-icon">
+                                    <mat-icon id="star">star_border</mat-icon>
+                                    <p class="mat-body-small" (click)="goNext(3)">Shortlist</p>
+                                    <!-- Displays a star icon with a border -->
+
+                                </div>
+                                <div class="action-tick">
+                                    <p class="mat-body-small"><strong>Like her</strong></p>
+
+                                    <button mat-raised-button id="action-no" class="custom-warning-button"
+                                        (click)="goNext(2)">
+                                        <mat-icon>close</mat-icon> <!-- Cross icon -->
+                                    </button>
+
+                                    <button mat-raised-button id="action-yes" class="custom-warning-button"
+                                        (click)="goNext(1)">
+                                        <mat-icon>check</mat-icon> <!-- Tick icon -->
+                                    </button>
+
+
+                                </div>
+
+
+                            </div>
+
+                        </mat-card>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,147 @@
+.back-arrow {
+    font-size: 24px;
+    color: black;
+    background: none;
+    padding: 0;
+}
+
+.container {
+    background-color: #F1F1F1;
+    height: 100vh;
+}
+
+.tittle {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    margin: 2rem;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-half {
+    height: 50vh;
+    background-color: #3EB591;
+}
+
+.second-half {
+    height: 50vh;
+    background-color: #F1F1F1;
+}
+
+.card-container {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86%;
+    z-index: 10;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ion-card-header {
+    background-color: #1976D2;
+    color: white;
+}
+
+ion-card-content {
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.star-icon {
+    font-size: 48px;
+    color: transparent;
+}
+
+.star-icon svg path {
+    stroke: black;
+    stroke-width: 2;
+    fill: transparent;
+}
+
+.action-icon {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#star {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.action-tick {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+p {
+    display: inline-block;
+}
+
+#action-yes {
+    background-color: #ff9800;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin-right: .5rem;
+}
+
+.verified {
+    font-size: 17px;
+    color: #A2B2D6;
+}
+
+button {
+    font-size: 1rem;
+}
+
+.profile-card {
+    height: 85vh;
+    box-shadow: 0 -4px 6px -2px #F8FCFA, 0 -6px 10px -2px #D8F0EA;
+    background-color: #FFFFFF;
+}
+
+.verified-premium {
+    display: flex;
+}
+
+#verified {
+    color: #A2B2D6;
+}
+
+@media (min-width: 450px) {
+    img {
+        object-fit: contain;
+        background-color: #339fd9;
+    }
+}
